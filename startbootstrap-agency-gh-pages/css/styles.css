@@ -11037,13 +11037,18 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.page-section h2.section-headingsub,
+.page-section .section-headingsub.h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
 .page-section h3.section-subheading,
 .page-section .section-subheading.h3 {
   font-size: 1rem;
   font-weight: 400;
-  font-style: italic;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -11271,6 +11276,7 @@ header.masthead .masthead-heading {
   position: relative;
   padding: 0;
   list-style: none;
+  margin-top: 30px;
 }
 .timeline:before {
   position: absolute;
