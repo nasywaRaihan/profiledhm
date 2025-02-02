@@ -11146,7 +11146,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url('dhm22.JPG');
+  background-image: url('../assets/img/dhm22.JPG');
   background-color: rgba(0, 0, 0, 0.7); /* Warna hitam transparan */
   background-blend-mode: darken; /* Mencampur warna dengan gambar */
   background-repeat: no-repeat;
@@ -11468,7 +11468,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url('../assets/img/map-image.png');
+  background-image: url('');
   background-repeat: no-repeat;
   background-position: center;
 }
