@@ -623,7 +623,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -11062,6 +11062,12 @@ p {
   font-size: 1.125rem;
   font-weight: 700;
 }
+.btn-sm {
+  padding: 0.7rem 1rem;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 0.8rem;
+  font-weight: 200;
+}
 
 .btn-social {
   height: 2.5rem;
@@ -11466,6 +11472,11 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+.img-brand-logo {
+  height: 200px;
+  opacity: 50%;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url('');
@@ -11524,4 +11535,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Sembunyikan semua item setelah 5 yang pertama */
+.timeline-hidden {
+  display: none;
 }
